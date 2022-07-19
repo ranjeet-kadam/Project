@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Source+Code+Pro:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar
+{
+    position: absolute;
+     background-color:rgb(224, 219, 219); 
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.2s ease-in;
+}
+
+.sidebar nav
+{
+    padding: 40px;
+}
+.sidebar nav li
+{
+    list-style:none;
+    font-size:25px;
+    padding: 33px;
+}
+
+.sidebar nav li a
+{
+    text-decoration:none;
+    color:black;
+}
+
+.main
+{
+    /* background-color: rgb(243, 243, 46); */
+    width: 85vw;
+}
+
+.container
+{
+    display: flex;
+}
+
+.infoContainer
+{
+    /* background-color: rgb(138, 213, 243); */
+    height: 58vh;
+    width: 80vw;
+    margin:144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo
+{
+    font-size: 16px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   font-family: 'Source Code Pro', monospace;
+}
+
+.hello
+{
+    font-size: 3em;
+}
+
+.name
+{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about
+{
+    font-size: 2.5em;
+}
+
+.moreAbout
+{
+    font-size: 2em;
+    margin-top: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.buttons
+{
+padding-top: 25px;
+font-size: 16px;
+}
+
+.btn
+{
+    padding: 8px 15px;
+    border-radius: 23px;
+    color: azure;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 4px;
+    cursor: pointer;
+}
+
+.btn-sm
+{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.devPic img
+{
+    height: 58vh;
+}
+
+.contactForm
+{
+    padding: 0 30px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 80px;
+}
+
+.contactForm h1
+{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+    
+}
+
+.contactForm form div
+{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div input
+{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp
+{
+    font-size: 11px;
+    color: mediumpurple;
+    padding: 3px;
+    margin: 0 5px;
+}
+
+#form-check
+{
+    flex-direction: row;
+}
+
+#isclient
+{
+    width: 24px;
+    margin: 3px;
+    
+}
+
+.blogcontainer
+{
+    margin: 0 80px;
+}
+
+.blogItem 
+{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.blogcontainer h1
+{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 20px;
+}
+
+.blogItem p
+{
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.intro h2
+{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+}
+
+.intro p
+{
+    font-family: 'Edu SA Beginner', cursive;
+    margin: 12px;
+}
+
+.skillContainer
+{
+    padding: 10px;
+}
+
+.skiilItem
+{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.skill
+{
+    width: 230px;
+    height: 8px;
+    background-color: rgb(212, 250, 45);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.hundered
+{
+    width: 300px;
+    background-color: blueviolet;
+}
+
+.fifty
+{
+    width: 150px;
+    background-color: aquamarine;
+}
+
+.twenty5
+{
+    width: 75px;
+    background-color: aqua;
+}
+
+.hamburger
+{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham
+{
+    margin-top: 10px;
+}
+
+.cross
+{
+    margin-left: 215px;
+}
+
+@media screen and (max-width: 1150px) {
+
+    .devPic
+    {
+        display: none;
+    }
+    .devInfo
+  {
+    font-size: 10px;
+  }
+  .devInfo
+  {
+    font-size: 10px;
+  }
+  .intro, .blogcontainer, .contactForm
+  {
+    margin: 50px 8px;
+  }
+  .devInfo
+  {
+    font-size: 10px;
+  }
+  .buttons
+  {
+    font-size: 6px;
+  }
+
+  }
+   .sidebarGo  
+  {
+    transform: translate(-400px,0px);
+    position: absolute;
+  }
+
+
+  
+  

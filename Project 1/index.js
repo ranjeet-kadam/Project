@@ -1,0 +1,5 @@
+document,querySelector('.cross').style.display='none';
+document.querySelector('.hamburger').addEventListener("click", ()=>{
+    document.querySelector('.sidebarGo').classList.toggle('sidebarGo');
+
+})
